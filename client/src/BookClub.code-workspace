@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "BookClub",
+			"path": "../.."
+		},
+		{
+			"name": "react-blook-club-typescript",
+			"path": "../../../react-blook-club-typescript"
+		}
+	],
+	"settings": {}
+}
