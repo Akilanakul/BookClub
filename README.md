@@ -26,7 +26,7 @@ The Book Club App is a web application that allows users to manage their reading
 
 - Node.js and npm installed on your machine.
 
-### Backend Setup
+### Setup
 
 1. Clone the repository:
    ```bash
