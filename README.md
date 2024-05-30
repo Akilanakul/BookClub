@@ -11,8 +11,8 @@ The Book Club App is a web application that allows users to manage their reading
 - **Book Club Management**: Create, join, and leave book clubs.
 - **Book List**: Add books to reading lists and mark them as read, currently reading, or want to read.
 - **Discussion Forums**: Participate in book discussions within book clubs.
-- **Book Search**: Search for books by title, author, or genre.
-- **Recommendations**: Get book recommendations based on reading history and preferences.
+- **Book Search**: Search for books by id.
+
 
 ## Tech Stack
 
@@ -30,6 +30,21 @@ The Book Club App is a web application that allows users to manage their reading
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/book-club-app.git
-   cd book-club-app
+   git clone https://github.com/Akilanakul/BookClub.git
+   cd BookClub
+   
+2. Install backend dependencies:
+   cd backend
+   npm install
 
+3. Set up the database: The SQLite database will be set up automatically by TypeORM. No manual setup is required.
+
+4. Start the backend server:
+   npm start
+   The server will start on http://localhost:3000.
+
+5. Frontend Setup
+   cd ../frontend
+   npm install
+   npm start
+   The frontend will start on http://localhost:3001.
